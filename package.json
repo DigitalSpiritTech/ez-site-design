@@ -1,0 +1,24 @@
+{
+  "name": "ez-site-design",
+  "version": "0.1.0",
+  "description": "Page builder built with React JS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teddarling/ez-site-design.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "page",
+    "builder"
+  ],
+  "author": "Ted Darling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teddarling/ez-site-design/issues"
+  },
+  "homepage": "https://github.com/teddarling/ez-site-design#readme"
+}
