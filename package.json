@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teddarling/ez-site-design.git"
+    "url": "git+https://github.com/DigitalSpiritTech/ez-site-design.git"
   },
   "keywords": [
     "react",
@@ -18,10 +18,10 @@
   "author": "Ted Darling",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/teddarling/ez-site-design/issues"
+    "url": "https://github.com/DigitalSpiritTech/ez-site-design/issues"
   },
-  "homepage": "https://github.com/teddarling/ez-site-design#readme",
+  "homepage": "https://github.com/DigitalSpiritTech/ez-site-design#readme",
   "devDependencies": {
-    "typescript": "^2.2.2"
+    "typescript": "^2.5.2"
   }
 }
