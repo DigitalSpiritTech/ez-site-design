@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/DigitalSpiritTech/ez-site-design#readme",
   "devDependencies": {
+    "@types/jest": "^20.0.8",
     "awesome-typescript-loader": "^3.2.3",
     "jest": "^21.0.2",
     "ts-jest": "^21.0.0",
@@ -45,6 +46,11 @@
     "transform": {
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+    "testRegex": "/tests/.*\\.(ts|tsx|js)$",
+    "globals": {
+      "ts-jest": {
+        "useBablerc": true
+      }
+    }
   }
 }
