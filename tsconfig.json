@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "es2015",
+        "target": "es6",
+        "sourceMap": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "es6"
+        ]
+
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "awesomeTypescriptLoaderOptions" : {
+        "useBabel": true
+    },
+    "compileOnSave": false
+    
+}

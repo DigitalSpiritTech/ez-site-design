@@ -1,9 +1,11 @@
 {
   "name": "ez-site-design",
   "version": "0.1.0",
-  "description": "Page builder built with React JS",
+  "description": "Page builder built with React JS, Bootstrap 4 Beta and Material Design Bootstrap",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/tslint -c tslint.json '/src/**/*.{ts,tsx}'",
+    "pretest": "yarn lint",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,9 @@
     "react",
     "typescript",
     "page",
-    "builder"
+    "builder",
+    "bootstrap",
+    "material design"
   ],
   "author": "Ted Darling",
   "license": "MIT",
@@ -22,6 +26,25 @@
   },
   "homepage": "https://github.com/DigitalSpiritTech/ez-site-design#readme",
   "devDependencies": {
-    "typescript": "^2.5.2"
+    "awesome-typescript-loader": "^3.2.3",
+    "jest": "^21.0.2",
+    "ts-jest": "^21.0.0",
+    "tslint": "^5.7.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.8.1"
+  },
+  "dependencies": {},
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
   }
 }
